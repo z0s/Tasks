@@ -13,6 +13,13 @@
 		6A2B68541DBDF5CE002055CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B68521DBDF5CE002055CE /* Main.storyboard */; };
 		6A2B68561DBDF5CE002055CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B68551DBDF5CE002055CE /* Assets.xcassets */; };
 		6A2B68591DBDF5CE002055CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B68571DBDF5CE002055CE /* LaunchScreen.storyboard */; };
+		6A2B686F1DBDF7B7002055CE /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68611DBDF7B7002055CE /* TableView.m */; };
+		6A2B68701DBDF7B7002055CE /* PullToAddNewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68621DBDF7B7002055CE /* PullToAddNewBehavior.m */; };
+		6A2B68711DBDF7B7002055CE /* PinchToAddNewBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68631DBDF7B7002055CE /* PinchToAddNewBehavior.m */; };
+		6A2B68721DBDF7B7002055CE /* StrikethroughLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68651DBDF7B7002055CE /* StrikethroughLabel.m */; };
+		6A2B68731DBDF7B7002055CE /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68661DBDF7B7002055CE /* TableViewCell.m */; };
+		6A2B68741DBDF7B7002055CE /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A2B68681DBDF7B7002055CE /* ToDoItem.m */; };
+		6A2B68751DBDF7B7002055CE /* Quiz-120 copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A2B686E1DBDF7B7002055CE /* Quiz-120 copy.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,21 @@
 		6A2B68551DBDF5CE002055CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A2B68581DBDF5CE002055CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A2B685A1DBDF5CE002055CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A2B68601DBDF7B7002055CE /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		6A2B68611DBDF7B7002055CE /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
+		6A2B68621DBDF7B7002055CE /* PullToAddNewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullToAddNewBehavior.m; sourceTree = "<group>"; };
+		6A2B68631DBDF7B7002055CE /* PinchToAddNewBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchToAddNewBehavior.m; sourceTree = "<group>"; };
+		6A2B68641DBDF7B7002055CE /* PinchToAddNewBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchToAddNewBehavior.h; sourceTree = "<group>"; };
+		6A2B68651DBDF7B7002055CE /* StrikethroughLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrikethroughLabel.m; sourceTree = "<group>"; };
+		6A2B68661DBDF7B7002055CE /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		6A2B68671DBDF7B7002055CE /* PullToAddNewBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullToAddNewBehavior.h; sourceTree = "<group>"; };
+		6A2B68681DBDF7B7002055CE /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		6A2B68691DBDF7B7002055CE /* StrikethroughLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrikethroughLabel.h; sourceTree = "<group>"; };
+		6A2B686A1DBDF7B7002055CE /* TableViewCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellDelegate.h; sourceTree = "<group>"; };
+		6A2B686B1DBDF7B7002055CE /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		6A2B686C1DBDF7B7002055CE /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		6A2B686D1DBDF7B7002055CE /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		6A2B686E1DBDF7B7002055CE /* Quiz-120 copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Quiz-120 copy.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,20 @@
 		6A2B68481DBDF5CE002055CE /* Task */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B68601DBDF7B7002055CE /* ToDoItem.h */,
+				6A2B68611DBDF7B7002055CE /* TableView.m */,
+				6A2B68621DBDF7B7002055CE /* PullToAddNewBehavior.m */,
+				6A2B68631DBDF7B7002055CE /* PinchToAddNewBehavior.m */,
+				6A2B68641DBDF7B7002055CE /* PinchToAddNewBehavior.h */,
+				6A2B68651DBDF7B7002055CE /* StrikethroughLabel.m */,
+				6A2B68661DBDF7B7002055CE /* TableViewCell.m */,
+				6A2B68671DBDF7B7002055CE /* PullToAddNewBehavior.h */,
+				6A2B68681DBDF7B7002055CE /* ToDoItem.m */,
+				6A2B68691DBDF7B7002055CE /* StrikethroughLabel.h */,
+				6A2B686A1DBDF7B7002055CE /* TableViewCellDelegate.h */,
+				6A2B686B1DBDF7B7002055CE /* TableViewCell.h */,
+				6A2B686C1DBDF7B7002055CE /* TableView.h */,
+				6A2B686D1DBDF7B7002055CE /* TableViewDataSource.h */,
 				6A2B684C1DBDF5CE002055CE /* AppDelegate.h */,
 				6A2B684D1DBDF5CE002055CE /* AppDelegate.m */,
 				6A2B684F1DBDF5CE002055CE /* ViewController.h */,
@@ -74,6 +110,7 @@
 		6A2B68491DBDF5CE002055CE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6A2B686E1DBDF7B7002055CE /* Quiz-120 copy.png */,
 				6A2B684A1DBDF5CE002055CE /* main.m */,
 			);
 			name = "Supporting Files";
@@ -137,6 +174,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2B68751DBDF7B7002055CE /* Quiz-120 copy.png in Resources */,
 				6A2B68591DBDF5CE002055CE /* LaunchScreen.storyboard in Resources */,
 				6A2B68561DBDF5CE002055CE /* Assets.xcassets in Resources */,
 				6A2B68541DBDF5CE002055CE /* Main.storyboard in Resources */,
@@ -150,8 +188,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A2B68701DBDF7B7002055CE /* PullToAddNewBehavior.m in Sources */,
 				6A2B68511DBDF5CE002055CE /* ViewController.m in Sources */,
+				6A2B686F1DBDF7B7002055CE /* TableView.m in Sources */,
+				6A2B68741DBDF7B7002055CE /* ToDoItem.m in Sources */,
 				6A2B684E1DBDF5CE002055CE /* AppDelegate.m in Sources */,
+				6A2B68721DBDF7B7002055CE /* StrikethroughLabel.m in Sources */,
+				6A2B68731DBDF7B7002055CE /* TableViewCell.m in Sources */,
+				6A2B68711DBDF7B7002055CE /* PinchToAddNewBehavior.m in Sources */,
 				6A2B684B1DBDF5CE002055CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,6 +351,7 @@
 				6A2B685F1DBDF5CE002055CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
