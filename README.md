@@ -13,7 +13,7 @@ The Task iOS application is a To Do List that uses gesture recognizers to create
 
 
 ## Questions?
-Send me an [email](mailto:macs4enthusiasts@gmail.com?subject=Tasks).
+Send me an [email](mailto:developios5@gmail.com?subject=Tasks).
 
 ## Credits
 Original concept for this app was inspired by the best-selling iOS task tracker application Clear.
